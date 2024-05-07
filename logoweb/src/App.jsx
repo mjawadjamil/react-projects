@@ -1,6 +1,7 @@
 import ChooseUs from "./ChooseUs"
 import HeroSection from "./HeroSection"
 import Industries from "./Industries"
+import MessageSection from "./MessageSection"
 import Navbar from "./Navbar"
 import Services from "./Services"
 import Topbar from "./Topbar"
@@ -17,6 +18,7 @@ function App() {
     <ChooseUs/>
     <Services/>
     <Industries/>
+    <MessageSection/>
     {/* <Try/> */}
     </>
   )

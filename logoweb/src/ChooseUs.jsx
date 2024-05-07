@@ -61,7 +61,7 @@ function ChooseUs() {
                     <img src={Card2} alt="" className='rounded-full w-12 h-12 object-cover' />
                     <div>
                         <div className='flex items-center'>
-                        <p className='pl-4 pt-1 text-14 text-black font-semibold font-poppins'>Manual</p>
+                            <p className='pl-4 pt-1 text-14 text-black font-semibold font-poppins'>Manual</p>
                             <ChooseUssvg />
                             <ChooseUssvg />
                             <ChooseUssvg />
