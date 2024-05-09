@@ -1,4 +1,5 @@
 import ChooseUs from "./ChooseUs"
+import Footer from "./Footer"
 import HeroSection from "./HeroSection"
 import Industries from "./Industries"
 import MessageSection from "./MessageSection"
@@ -19,6 +20,7 @@ function App() {
     <Services/>
     <Industries/>
     <MessageSection/>
+    <Footer/>
     {/* <Try/> */}
     </>
   )

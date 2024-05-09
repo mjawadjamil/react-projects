@@ -3,11 +3,11 @@ import Message from './images/MessageSection.jfif'
 
 function MessageSection() {
   return (
-    <div className='flex bg-bgFirst px-32 relative mb-20 py-16'>
+    <div className='flex bg-bgFirst px-32 relative  py-16'>
       <div className='relative'>
-        <img src={Message} alt="" className='w-697 h-687 rounded-bl-3xl object-cover ' />
+        <img src={Message} alt="" className='w-697 h-687 rounded-bl-[60px] object-cover ' />
       </div>
-      <div className='absolute right-16 bg-white w-653 h-688 px-16 mr-16 py-8 rounded-tl-3xl'>
+      <div className='absolute right-16 bg-white w-653 h-688 px-16 mr-16 py-8 rounded-tl-[60px]'>
         <h1 className='text-36 text-txtclr font-poppins font-semibold mb-4'>Connect With Your<br /> Next Great Hire Today!</h1>
         <form action="">
           <div className='mb-6'>
