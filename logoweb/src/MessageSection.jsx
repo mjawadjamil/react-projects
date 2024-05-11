@@ -3,7 +3,7 @@ import Message from './images/MessageSection.jfif'
 
 function MessageSection() {
   return (
-    <div className='flex bg-bgFirst px-32 relative  py-16'>
+    <div className='flex bg-bgFirst px-32 relative py-16'>
       <div className='relative'>
         <img src={Message} alt="" className='w-697 h-687 rounded-bl-[60px] object-cover ' />
       </div>

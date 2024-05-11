@@ -15,17 +15,17 @@ function HeroSection() {
             </svg>
         </div> */}
 
-            <div className='px-32 flex justify-between pt-24'>
-                <div className='w-508 h-389 mt-16'>
-                    <h1 className='text-txtclr font-poppins font-semibold text-60 leading-tight tracking-tight'>DIGITAL PRODUCT ENGINEERING</h1>
+            <div className='sm:px-32 sm:flex sm:flex-row sm:justify-between sm:pt-24 flex flex-col'>
+                <div className='sm:w-508 sm:h-389 mt-16'>
+                    <h1 className='text-txtclr font-poppins font-semibold sm:text-60 leading-tight tracking-tight text-[45px]'>DIGITAL PRODUCT ENGINEERING</h1>
 
-                    <p className='text-txtclr text-24 font-poppins mt-6 leading-tight'>Stand out with an impressive resume
+                    <p className='text-txtclr sm:text-24 font-poppins mt-6 leading-tight text-[18px]'>Stand out with an impressive resume
                         connect with top companies, and gain
                         valuable insights for your professional
                         journey</p>
 
-                    <button className='bg-btnclr rounded-full w-263 h-63 text-white text-18 flex items-center justify-center mt-8'>Get Started
-                        <div className='pl-1 w-7 h-7'>
+                    <button className='bg-btnclr rounded-full sm:w-263 sm:h-63 w-[160px] h-[45px] text-white text-18 sm:flex sm:items-center sm:justify-center mt-8 flex items-center justify-center '>Get Started
+                        <div className='sm:pl-1 sm:w-7 sm:h-7 '>
                             <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M17 7.5L6 18.5" stroke="white" stroke-width="1.5" stroke-linecap="round" />
                                 <path d="M11 6.63153C11 6.63153 16.6335 6.15664 17.4885 7.01155C18.3434 7.86647 17.8684 13.5 17.8684 13.5" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
@@ -35,8 +35,10 @@ function HeroSection() {
 
                     </button>
                 </div>
-                <div className='w-456 h-499 mb-10'>
-                    <Herosvg className='w-456 h-499' />
+                <div className='sm:mb-10 mb-10 sm:mt-0 mt-14'>
+                
+                {/* w-[390px] h-[350px] */}
+                    <Herosvg className='object-cover'/>
                 </div>
 
             </div>
