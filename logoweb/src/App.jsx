@@ -18,8 +18,8 @@ function App() {
     <HeroSection/>
     <ChooseUs/>
     <Services/>
-    {/* <Industries/> */}
-    {/* <MessageSection/> */}
+    <Industries/>
+    <MessageSection/>
     {/* <Footer/> */}
     {/* <Try/> */}
     </>

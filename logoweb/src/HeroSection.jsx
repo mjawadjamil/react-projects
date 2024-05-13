@@ -35,7 +35,7 @@ function HeroSection() {
 
                     </button>
                 </div>
-                <div className='sm:mb-10 mb-10 sm:mt-0 mt-14'>
+                <div className='sm:mb-10 sm:mt-0 mt-14'>
                 
                 {/* w-[390px] h-[350px] */}
                     <Herosvg className='object-cover'/>
